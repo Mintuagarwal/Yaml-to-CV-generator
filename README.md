@@ -13,4 +13,11 @@ skills:
   - Python
   - HTML
   - CSS
+projects:
+  - title: Project A
+    description: Developed a web application using Django.
+work_experience:
+  - position: Software Engineer
+    company: ABC Corp
+    year: 2020-2022
 ```
