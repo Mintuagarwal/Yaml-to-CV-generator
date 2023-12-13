@@ -30,7 +30,4 @@ The data will be rendered into **resume_template.html** using jinja2 and the out
 
 <a href='output_resume.pdf'>Output Resume </a>
 
-
-<embed src="output_resume.pdf">
-    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/Mintuagarwal/Yaml-to-CV-generator/blob/main/output_resume.pdf">Download PDF</a>.</p>
-</embed>
+<img src='page_input_data.yaml0.jpg'>
