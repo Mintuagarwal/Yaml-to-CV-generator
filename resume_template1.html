@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> {{ name }} 's Resume</title>
+</head>
+<body>
+    <header>
+        <h1> {{ name }} </h1>
+    </header>
+    <hr>
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            {% for entry in education %}
+                <li>
+                    <strong>{{ entry.degree }}</strong><br>
+                    {{ entry.school }}, {{ entry.year }}
+                </li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            {% for skill in skills %}
+                <li>{{ skill }}</li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            {% for project in projects %}
+                <li>
+                    <strong>{{ project.title }}</strong><br>
+                    {{ project.description }}
+                </li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section id="work-experience">
+        <h2>Work Experience</h2>
+        <ul>
+            {% for job in work_experience %}
+                <li>
+                    <strong>{{ job.position }}</strong><br>
+                    {{ job.company }}, {{ job.year }}
+                </li>
+            {% endfor %}
+        </ul>
+    </section>
+</body>
+</html>

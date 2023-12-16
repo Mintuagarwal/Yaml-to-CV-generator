@@ -28,6 +28,6 @@ Working it out pdfkit was a bit of a hassle for me, so I have written a blog in 
 
 The data will be rendered into **resume_template.html** using jinja2 and the output should look somehting like below:
 
-<a href='output_resume.pdf'>Output Resume </a>
+<a href='examples/outputs/pdfs/output_resume.pdf'>Output Resume </a>
 
-<img src='page_input_data.yaml0.jpg'>
+<img src='examples/outputs/images/page_input_data.yaml0.jpg'>
